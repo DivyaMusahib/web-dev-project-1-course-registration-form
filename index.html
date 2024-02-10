@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWIOI Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1><u>Course Registration Form</u></h1>
+    <form class="container">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Enter your name here">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="name" placeholder="Enter your email here">
+        </div>
+        <br>
+        <div>
+            <label>D.O.B: </label>
+            <input type="date" id="DOB" name="DOB">
+
+        </div>
+        <br>
+        <div>
+            <label>Gender: </label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            <label>Where did you hear about us ?</label>
+            <br>
+            <div>
+                <input type="checkbox" name="youtube" id="youtube" value="yes">
+                <label for="youtube">Youtube</label>
+            </div>
+            <div>
+                <input type="checkbox" name="facebook" id="facebook" value="yes">
+                <label for="facebook">Facebook</label>
+            </div>
+            <div>
+                <input type="checkbox" name="instagram" id="instagram" value="yes">
+                <label for="instagram">Instagram</label>
+            </div>
+            <div>
+                <input type="checkbox" name="friends" id="friends" value="yes">
+                <label for="friends">From friends</label>
+            </div>
+            <br>
+            <div>
+
+                <label for="selection">Choose a course:</label>
+                <select name="selection" id="selection">
+                <option value="" disabled selected>Select a course</option>
+                <option value = "Airtificial Intelligence">Airtificial Intelligence</option>
+                <option value = "Data Science">Data Science</option>
+                <option  value="Web Development">Web Development</option>
+                
+                </select>
+
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="phone no.">Phone number: </label>
+            <input type="text" name="phone no." id="exhibition" placeholder="Enter your phone no. here">
+        </div>
+        <br>
+        <div class="buttons">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+</body>
+
+</html>
